@@ -1,4 +1,4 @@
-version: 1
+version: 2
 jobs:
   node:
     working_directory: ~/react-native-paytabs-library/example
@@ -145,7 +145,7 @@ jobs:
           path: ios/test-results
 
 workflows:
-  version: 1
+  version: 2
   node-android-ios:
     jobs:
       - node
